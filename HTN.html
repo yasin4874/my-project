@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning HTML in MHB</title>
+        <link rel="icon" type="image/x-icon" href="">
+        <style>
+            table,th,td {border: 1px solid black }
+        </style>
+    </head>
+    
+    <body dir="rtl">
+        <h1> دورة تعليم HTML </h1>
+        <img src="OIP.jpeg" width="280" height="280" alt="صورة ل HTML">
+        <h2>وصف الدورة </h2>
+        <p><b>HTML</b> هي طريقة لكتابة وهيكلة صفحات الويب، ولا تعتبر HTML لغة برمجية بالمعنى الفعلي بل هي لغة وصفية. أي أنها تستخدم لوصف الصفحة وتوزيع وترتيب محتواها من نصوص وروابط وصور ومقاطع فيديو وما إلى ذلك، وهي المكون الرئيسي لأي موقع ويب تستخدم HTML ما يسمى بالوسوم أو <i>Tags</i>وهي عبارة عن رموز لكل منها مهمة خاصة يقوم بها، فمنها ما يقوم بعرض العنوان ومنها ما يقوم بعرض النصوص ومنها ما يقوم بعرض الصور أو الروابط أو مقاطع الفيديو وهكذا ، والمتصفح يفهم هذه الرموز أو الوسوم ويعرضها بالشكل المحدد والمطلوب</p>
+        <h3>مواعيد المحاضرات يوميا:</h3>
+        <p>من الساعة <mark>11:00<sub>am</sub></mark> وحتى الساعة <sub>am</sub></p>
+        <h3>المستويات لهذه الدورة:</h3>
+        <p>level 1<sup>st</sup>: أساسيات  HTML <br>
+            level 2<sup>st</sup>: <strong></strong>مفاهيم متقدمة في HTML
+        </p> <hr>
+
+        <h2>أهداف هذه الدورة: </h2>
+        <ol>
+            <li>التعرف على مفهوم HTML </li>
+            <li>تعلم كل tag والغرض من استخدامه</li>
+            <li>طرق إضافة النصوص, الفيديوهات, وغيرها من المحتويات المعتادة في صفحات الويب</li>
+        </ol>
+        <h2>متطلبات هذه الدورة:</h2>
+        <ul>
+            <li>متصفح سفاري, قوقل كروم</li>
+            <li>محرر نصوص مثل </li>
+        </ul>
+        <p>للإنتقال لصفحة جديدةاصغط
+            <a href="http://127.0.0.1:5500/index.html" target="_top">هنا</a>
+            
+        </p>
+        
+        <table >
+            <caption>أيام المحاضرات</caption>
+            <tr>
+                <th>اليوم</th>
+                <th>المكان</th>
+            </tr>
+            <tr>
+                <td>الإثنين وتاخميس</td>
+                <td>Class A</td>
+            </tr>
+            <tr>
+                <td >الثلاثاء والأربعاء</td>
+                <td>Class B</td>
+            </tr>
+            <!--colspan="" table isku furee-->
+        </table><hr>
+
+        <form>
+            <!--Soo gali magac-->
+            <label for="name">إسم المستخدم</label>
+            <input type="text" id="name" placeholder="أدخل إسمك">
+
+            <!--kala dooro-->
+            <p>الجنس:</p>
+            <input type="radio" id="male" name="gender">
+            <label for="male">ذكر</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">أنثى</label>
+
+            <!-- doorasho inka badan hal xabo -->
+            <p>من أين سمعت عن HTML:</p>
+            <input type="checkbox" id="friend" name="saaxiib" >
+            <label for="friend">من صديق</label> <br>
+            <input type="checkbox" id="Books" name="Buug">
+            <label for="Books">من كتاب</label><br>
+            <input type="checkbox" id="social" name="social media">
+            <label for="social">من مواقع التواصل الإجتماعي</label>
+
+            <!-- doorasho -->
+            <p></p>
+            <label for="city">إختر مدينتك</label>
+            <select id="city" name="city">
+                <option value="muqdisho">مقديشو</option>
+                <option value="kismaayo">كسمايو</option>
+                <option value="xamar">حمر</option>
+            </select><br><br>
+
+            <!-- dir xogta-->
+            <input class="subm" type="submit" value="انضمام">
+            
+        </form>
+
+
+    </body>
+
+</html>
